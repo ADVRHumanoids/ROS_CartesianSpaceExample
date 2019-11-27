@@ -50,10 +50,13 @@ Remind to select "world" for "Fixed Frame" in "Global Options".
 
 This should be the visualization:
 
+![XBotCore basic example with Centauro](https://github.com/ADVRHumanoids/XBotControl/blob/master/xbotcore_centauro_basic.png)
 
 Start XBot Communication Plugin:
 
 ```
+rosservice call /xbotcore/HomingExample_switch 1
+rosservice call /xbotcore/HomingExample_switch 0
 rosservice call /xbotcore/XBotCommunicationPlugin_switch 1
 ```
 
@@ -63,4 +66,10 @@ In another terminal launch:
 ```
 Terminal 1: 
             
-            rosrun pose poseCSp_talker   
+            rosrun posecartspace poseCSp_talker
+        
+# Result
+
+This should be the visualization:
+
+![XBotCore basic example with Centauro](https://github.com/ADVRHumanoids/Pose-Task/blob/master/HelloPose_Centauro.png)
