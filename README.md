@@ -50,7 +50,7 @@ Remind to select "world" for "Fixed Frame" in "Global Options".
 
 This should be the visualization:
 
-![XBotCore basic example with Centauro](https://github.com/ADVRHumanoids/ROS_CartesianSpaceExample/blob/master/Start_cogimon.png)
+![XBotCore basic example with Cogimon](https://github.com/ADVRHumanoids/ROS_CartesianSpaceExample/blob/master/Start_cogimon.png)
 
 Start XBot Communication Plugin:
 
@@ -72,4 +72,4 @@ Terminal 1:
 
 This should be the visualization:
 
-![XBotCore basic example with Centauro](https://github.com/ADVRHumanoids/ROS_CartesianSpaceExample/blob/master/Pose_cogimon.png)
+![XBotCore basic example with Cogimon](https://github.com/ADVRHumanoids/ROS_CartesianSpaceExample/blob/master/Pose_cogimon.png)
